@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="zb-client" Version="2.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\bpmn_flow.bpmn" CopyToOutputDirectory="PreserveNewest" Link="bpmn_flow.bpmn" />
+    <Content Include="..\form_manual_check.form" CopyToOutputDirectory="PreserveNewest" Link="form_manual_check.form" />
+  </ItemGroup>
+
+</Project>

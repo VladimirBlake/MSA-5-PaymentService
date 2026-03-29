@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Решение по транзакции",
+      "values": [
+        {
+          "label": "Разрешить",
+          "value": "approve"
+        },
+        {
+          "label": "Запретить",
+          "value": "reject"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1xp9slb",
+        "columns": null
+      },
+      "id": "Field_1dv7arz",
+      "key": "decision"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0hjfiq2",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.45.0"
+  },
+  "schemaVersion": 19
+}
