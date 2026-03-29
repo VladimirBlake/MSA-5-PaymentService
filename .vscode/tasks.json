@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Orchestrator",
+			"type": "shell",
+			"command": "cd /Users/vladimirblake/Study/yandex-microservices/MSA-5-PaymentService/Task4.2/Orchestrator && dotnet build"
+		}
+	]
+}
